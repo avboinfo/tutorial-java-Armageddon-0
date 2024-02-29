@@ -11,5 +11,11 @@ public class Main {
         l.add(new Nodo(i, null));
       }
         System.out.println(l);
+      
+        for(int i=0;i>10;i++){
+        l.addHead(new Nodo(i, null));
+
+      }
+      System.out.println(l);
     }
 }
