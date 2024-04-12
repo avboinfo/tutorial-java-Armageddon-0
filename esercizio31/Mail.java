@@ -20,7 +20,7 @@ class Mail {
                 result += p+"\n";
         }
         p=p.getSuccessivo();
-    }
+    }    
     return result;
 }
 

@@ -1,11 +1,11 @@
-package esercizio31;
-import java.io.*;
-public class NodoMail<T> {
-    
-    private T valore;
-    private NodoMail <T> successivo;
+package SpesaAlSupermercato;
 
-    public NodoMail( T valore ) {
+public class Nodo <T>{
+
+    private T valore;
+    private Nodo<T> successivo;
+
+    public Nodo( T valore ) {
         this.valore = valore;
         successivo = null;
     }
@@ -18,16 +18,17 @@ public class NodoMail<T> {
         return valore;
     }
 
-    public NodoMail<T> getSuccessivo() {
+    public Nodo<T> getSuccessivo() {
         return successivo;
     }
 
-    public void setSuccessivo(NodoMail<T> successivo) {
+    public void setSuccessivo(Nodo<T> successivo) {
         this.successivo = successivo;
     }
     
-    public java.lang.String toString() {
+    public String toString() {
         return "Il mio valore è: " + valore;
     }
+
 }
 

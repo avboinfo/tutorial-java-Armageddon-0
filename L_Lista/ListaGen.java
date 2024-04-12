@@ -2,7 +2,7 @@ package L_Lista;
 
 public class ListaGen<T> {
 
-    NodoGen<T> root;
+    NodoGen<T> root; 
 
     public ListaGen() {
         this.root = null;
