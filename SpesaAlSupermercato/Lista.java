@@ -30,6 +30,7 @@ public class Lista<T> {
         }
     }
     
+    
     public void remuveHeadCodice(int  codice){
         Nodo r=root;
         Nodo p=null;
